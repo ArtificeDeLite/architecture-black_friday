@@ -2,16 +2,16 @@
 
 ## Как запустить
 
-Запускаем mongodb и приложение
+Запускаем все сервисы и приложение.
 
-```shell
+```bash
+cd sharding-repl-cache
 docker compose up -d
 ```
 
-Заполняем mongodb данными
-
-```shell
-./scripts/mongo-init.sh
+### Инициализация сервисов и заполнение БД данными
+```bash
+./scripts/init.sh
 ```
 
 ## Как проверить
